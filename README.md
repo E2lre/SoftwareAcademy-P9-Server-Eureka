@@ -26,7 +26,7 @@ For Global application
 # Installation
 Check PatientV2 Readme.md for global installation 
 
-###Docker image construction in project directory :
+### Docker image construction in project directory :
 docker build --build-arg JAR_FILE=target/*.jar -t p9-eureka .
 
 ### Docker execution if docker-compose is not use
@@ -34,4 +34,5 @@ docker run -p 9102:9102 --name Eureka p9-eureka
 
 ## URI : Check Eureka server
 * http://localhost:9102/
+
 * http://eureka:9102/
